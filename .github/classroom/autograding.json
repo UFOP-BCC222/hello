@@ -3,7 +3,7 @@
     {
       "name": "Say hello world (with runhaskell)",
       "setup": "",
-      "run": "runhaskell hello.hs",
+      "run": "LANG=C.UTF-8 runhaskell hello.hs",
       "input": "",
       "output": "Olá",
       "comparison": "included",
@@ -12,8 +12,8 @@
     },
     {
       "name": "Say hello world (with ghc)",
-      "setup": "ghc hello.hs",
-      "run": "./hello",
+      "setup": "LANG=C.UTF-8 ghc hello.hs",
+      "run": "LANG=C.UTF-8 ./hello",
       "input": "",
       "output": "Olá",
       "comparison": "included",
