@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Say hello world (with runhaskell)",
+      "setup": "",
+      "run": "runhaskell hello.hs",
+      "input": "",
+      "output": "Olá",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Say hello world (with ghc)",
+      "setup": "ghc hello.hs",
+      "run": "./hello",
+      "input": "",
+      "output": "Olá",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
